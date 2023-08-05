@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.summary-heading {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #616e7c;
+}
+.summary-para {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.checked-btn {
+  border: none;
+  background-color: #0b69ff;
+  padding-left: 20px;
+  color: white;
+  font-size: 12px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.span-price {
+  color: #171f46;
+  font-family: 'roboto';
+  font-size: 20px;
+}
